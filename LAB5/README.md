@@ -31,8 +31,9 @@ Mô hình mạng được xây dựng bao gồm 3 vùng cơ bản: WAN (Internet
 | Tình huống / Bài test | Mục tiêu | Kết quả |
 | :--- | :--- | :---: |
 | **Cấu hình nền tảng** | Cấu hình Outbound NAT (Hybrid), thiết lập Rule nền tảng (Pass LAN to Any) cho phép mạng nội bộ ra Internet. | **PASS** |
-| **Tình huống 1** | Chặn ICMP (Ping) từ LAN ra ngoài nhưng vẫn cho phép phân giải tên miền (DNS) và lướt Web (HTTP/HTTPS). | **NO PASS** |
+| **Tình huống 1** | Chặn ICMP (Ping) từ LAN ra ngoài nhưng vẫn cho phép phân giải tên miền (DNS) và lướt Web (HTTP/HTTPS). | **PASS** |
 | **Tình huống 2** | Chỉ cấp quyền cho một Host cụ thể (Domain Controller - `10.0.0.2`) ra Internet, chặn toàn bộ các máy khác trong LAN (LAN-Test - `10.0.0.3`). | **NO PASS** |
+| **Tình huống 3** | Cô lập máy chủ DMZ (`172.16.0.2`) khỏi vùng mạng LAN nhưng vẫn đảm bảo DMZ có thể đi ra Internet. | **NO PASS** |
 
 
 ## 5. Các lỗi gặp phải và Cách khắc phục
