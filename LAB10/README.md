@@ -5,7 +5,7 @@
 - **MSSV:** 1150070017
 - **Tên bài thực hành:** LAB 10 – Remote DNS Cache Poisoning trong môi trường pfSense cô lập
 - **Học phần:** Thực hành An toàn Hệ thống Thông tin
-- **Ngày thực hiện:** 04/11/2026
+- **Ngày thực hiện:** 03/11/2026
 
 ---
 
