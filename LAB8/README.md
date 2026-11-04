@@ -1,9 +1,9 @@
-# BÁO CÁO THỰC HÀNH - LAB 9: LOCAL DNS ATTACK (SPOOFING & CACHE POISONING)
+# BÁO CÁO THỰC HÀNH - LAB 8: LOCAL DNS ATTACK (SPOOFING & CACHE POISONING)
 
 **Họ và tên:** Nguyễn Dương Quốc Huy
 **MSSV:** 1150070017
 **Môn học:** An toàn hệ thống thông tin
-**Tên bài Lab:** LAB 9 - DNS Spoofing và Cache Poisoning trong mạng ảo cô lập
+**Tên bài Lab:** LAB 8 - DNS Spoofing và Cache Poisoning trong mạng ảo cô lập
 
 ---
 
